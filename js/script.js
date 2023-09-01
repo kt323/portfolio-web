@@ -1,9 +1,10 @@
-let pokemonList = [
+let pokemonList = [];
+pokemonList = [
     {
         name: 'Charizard',
         height: 1.7,
         type: ['fire', 'flying'],
-        speed: 100
+        speed: 100 
     },
     {
         name: 'Psyduck',
@@ -18,3 +19,18 @@ let pokemonList = [
         speed: 70
     }
 ];
+
+const pokemonContainer = document.getElementById('pokemon-container');
+
+pokemonList.forEach(pokemon => {
+    let output = pokemon.name + ' (height: ' + pokemon.height + ')';
+
+    if (pokemon.height > 1.6) {
+        output += ' - Wow, that\'s big!';
+    }
+
+    let pokemonInfo = document.createElement('p');
+    pokemonInfo.textContent = output;
+
+    pokemonContainer.appendChild(pokemonInfo);
+});
