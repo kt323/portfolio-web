@@ -134,7 +134,7 @@ pokemonRepository.getAll().forEach(function(pokemon) {
 
 
 
-let dialogPromiseReject; //Set this later
+let dialogPromiseReject; 
 
 function hideModal () {
 let modalContainer = document.querySelector ('#modal-container');
