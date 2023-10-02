@@ -1,119 +1,31 @@
-.pokemon-icon {
-    max-width: 10%;
-    margin: auto;
-    display: block;
+.list-group-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h1 {
-    font-family: 'Raleway', sans-serif, bold;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.modal-container {
-    font-family: 'Raleway', sans-serif;
-    background-color: rgb(40, 132, 101); /* Background color for the normal state */
-    border: none;
-    color: white; /* Text color for the normal state */
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.5s;
-    cursor: pointer;
-}
-
-.button-class:hover {
-    background-color: rgb(2, 51, 35); 
-}
-
-.input-wrapper {
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-
-label {
-    display: inline-block;
-    min-width: 80px;
-}
-
-.error-message {
-    color: red;
-    font-size: 0.8em;
-}
-
-.close {
-    background-color: rgb(75, 52, 177);
+.list-group-item:hover {
+    background-color: rgb(62, 33, 137);
     color: rgb(255, 255, 255);
-    padding: 15px 20px;
-    text-align: center;
-    border-radius: 10px;
-    transition-duration: 0.5s;
-    cursor: pointer;
-}
-
-.close:hover {
-    background-color:rgb(125, 99, 241) ;
-}
-
-#modal-container {
-  display: none;
-}
-
-#modal-container.is-visible {
-  position: fixed;
-  padding: 20px;
-  box-sizing: border-box;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-
-  z-index: 999; 
-
-  overflow: auto; 
-
-  display: grid;
-  text-align: center;
-}
-
-.modal {
-    font-family: 'Raleway', sans-serif;
-    margin: auto;
-    display: inline-block;
-    box-sizing: border-box;
-    border-color: black;
-    background-color: #fff;
-    color: black;
-    padding: 15px;
-    width: 100%;
-    text-align: center;
-}
-.modal:hover {
-    font-family: 'Raleway', sans-serif;
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(101, 43, 248);
-    color: white;
     transition-duration: 0.5s;
 }
 
-.modal-close {
-    background-color: rgb(101, 43, 248);
+.custom-navbar {
+    background-color: rgb(88, 121, 90);
     color: white;
-    float: right;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
 }
 
-.modal h2 {
-    margin-top: 0;
+.pokemon-icon {
+    width: 100px;
+    height: 100px;
+    text-align: center;
 }
 
-.modal p {
-    margin-bottom: 0;
-}
-
-.is-visible {
-    
+.pokemon-h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
 }
