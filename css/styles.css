@@ -1,31 +1,52 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(252, 255, 213);
+}
+
+.pokemon-h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form-inline {
+    margin: auto 0 auto auto;
+}
+
+
 .list-group-item {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fcffd5;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .list-group-item:hover {
-    background-color: rgb(62, 33, 137);
+    font-family: 'Raleway', sans-serif;
+    background-color: #1c5a7a;
     color: rgb(255, 255, 255);
     transition-duration: 0.5s;
-}
-
-.custom-navbar {
-    background-color: rgb(88, 121, 90);
-    color: white;
-    width: fit-content;
-    margin: 0 auto;
-    padding: 0;
+    box-shadow: inset;
 }
 
 .pokemon-icon {
     width: 100px;
     height: 100px;
-    text-align: center;
 }
 
-.pokemon-h1 {
+.modal-dialog {
+    background-color:rgb(115, 178, 210);
+}
+
+.modal-content {
+    background-color: rgb(251, 255, 210);
+}
+
+.btn-secondary {
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
+    background-color:rgb(25, 68, 91);
+    color: white;
 }
